@@ -1,0 +1,21 @@
+$vertPad: 80px;
+$sidePad: 70px;
+
+$numOfEls: 5;
+$elMrg: 1%;
+
+$initAT: 1s;
+$initDelayStep: 0.1s;
+$fullInitAT: $initAT + $initDelayStep * ($numOfEls - 1);
+$moveAT: 0.6s;
+$expandAT: 0.7s;
+$expandDelay: 0.1s;
+$bgScaleAT: 0.8s;
+$fadeoutAT: $moveAT + $expandAT/2;
+$indexHoverAT: 0.5s;
+$closeBtnAT: 0.3s;
+$closeBtnLineDelay: 0.15s;
+$fullExpandAT: $moveAT + $expandDelay + $expandAT;
+$contentFadeinAT: 0.5s;
+
+$font: bigFont;
